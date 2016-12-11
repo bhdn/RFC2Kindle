@@ -36,12 +36,12 @@ If the default font location isn't valid on your machine, use `fc-list | grep Co
 
 ```
 $ fc-list | grep Courier
-/usr/share/fonts/type1/texlive-fonts-recommended/pcrb8a.pfb: Courier:style=Bold
-/usr/share/fonts/type1/texlive-fonts-recommended/pcrr8a.pfb: Courier:style=Regular
-/usr/share/fonts/type1/texlive-fonts-recommended/pcrro8a.pfb: Courier:style=Italic
-/usr/share/fonts/type1/texlive-fonts-recommended/pcrbo8a.pfb: Courier:style=Bold Italic
+/usr/share/fonts/X11/Type1/c0419bt_.pfb: Courier 10 Pitch:style=Regular
+/usr/share/fonts/X11/Type1/c0611bt_.pfb: Courier 10 Pitch:style=Bold Italic
+/usr/share/fonts/X11/Type1/c0582bt_.pfb: Courier 10 Pitch:style=Italic
+/usr/share/fonts/X11/Type1/c0583bt_.pfb: Courier 10 Pitch:style=Bold
+$ ./rfc2kindle.py -i rfc2535.txt -f /usr/share/fonts/X11/Type1/c0419bt_.pfb
 
-$ ./rfc2kindle.py -i rfc2535.txt -f /usr/share/fonts/type1/texlive-fonts-recommended/pcrr8a.pfb
 ```
 
 If you run RFC2Kindle on windows platform, please do some changes yourself.  
